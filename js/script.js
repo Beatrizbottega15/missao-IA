@@ -95,12 +95,21 @@ function aleatorio(lista) {
 const posicao = Math.floor(Math.random()* lista.length);
 return lista[posicao];
 }
+
 function mostraResultado(){
     caixaPerguntas.textContent = "Olha só o que podemos afirmar sobre você...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
+    caixaResultado.classlist.add("mostrar");
+    botaoJogarNovamente.addEventListener("click", jogaNovamente());
 }
 
+function jogaNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    caixaResultado.classlist.remove("mostrar");
+    mostraPergunta();
+}
 
 
 mostraPergunta();
