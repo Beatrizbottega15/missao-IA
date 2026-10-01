@@ -1,51 +1,51 @@
 export const perguntas = [
     {
-        enunciado: "Como a tecnologia deve ser usada na saúde pública?",
+        enunciado: "Como a tecnologia pode ajudar a melhorar o acesso à saúde pública?",
         alternativas: [
             {
-                texto: "Focar em consultas online e aplicativos para que qualquer pessoa consiga atendimento médico direto do celular, sem sair de casa.",
-                afirmacao: "Você gosta de praticidade, inovação e facilidade no dia a dia. Valoriza o uso da tecnologia para encurtar distâncias e economizar tempo." ,
-                "Você aprecia a praticidade, o avanço tecnológico e a conveniência na sua rotina. Defende que os recursos digitais devem ser usados para aproximar pessoas e otimizar tarefas."
+                texto: "Criando plataformas de telemedicina para atender pessoas que moram longe de hospitais e postos de saúde.",
+                afirmacao: "Você valoriza a acessibilidade e acredita que a tecnologia pode aproximar o atendimento médico de quem mais precisa." ,
+                "Você aprecia soluções que diminuem distâncias e facilitam o acesso aos serviços de saúde."
             },
             {
-                texto:  "Focar na organização dos dados, prontuários integrados e controle de estoque de remédios para o sistema interno funcionar sem erros.",
-                afirmacao: "Você valoriza a ordem, a eficiência dos bastidores e a precisão. Acredita que as coisas só funcionam bem quando a gestão interna está redonda.", 
-                "Você preza pela organização, pelo bom funcionamento do trabalho interno e pela exatidão. Defende que o sucesso depende de um planejamento bem estruturado por trás dos panos."
+                texto:  "Usar sistemas digitais para organizar filas, consultas e encaminhamentos nos postos de saúde.",
+                afirmacao: "Você valoriza a organização e acredita que uma boa gestão pode tornar o atendimento mais rápido e eficiente.", 
+                "Você preza pela eficiência e acredita que a tecnologia deve ajudar a melhorar o funcionamento dos serviços públicos."
             }    
            
         ]
     },
     {
        
-            enunciado: "Qual é a melhor forma de cuidar da saúde mental da população?",
+            enunciado: "Qual seria uma boa maneira de aplicar a tecnologia no funcionamento da saúde pública?",
             alternativas: [
                 {
-                    texto: "Criar grupos de conversa, atividades físicas e palestras de apoio nas escolas, bairros e ambientes de trabalho.",
-                    afirmacao: "Você acredita na força do convívio, do diálogo e da empatia. Valoriza o apoio coletivo e o bem-estar social no dia a dia.", 
-                    "Você confia no poder das relações humanas, da troca de ideias e de se colocar no lugar do outro. Acredita firmemente na união da comunidade e na busca pelo bem-estar de todos no cotidiano."
+                    texto: "Facilitar a comunicação entre pacientes e profissionais por meio de aplicativos e plataformas digitais.",
+                    afirmacao: "Você curte ideias que deixam a comunicação mais rápida e diminuem a burocracia.", 
+                    "Ter um canal simples para tirar dúvidas e acompanhar atendimentos combina com o seu jeito mais prático de enxergar a tecnologia."
                 },
                 {
-                    texto:  "Aumentar o número de psicólogos e psiquiatras nos postos para atender cada pessoa de forma individual e personalizada.",
-                    afirmacao: "Você valoriza a privacidade, a atenção técnica e o acompanhamento especializado. Acredita no cuidado pontual de cada caso.", 
-                    "Você dá grande valor ao sigilo, ao rigor técnico e ao auxílio por parte de especialistas. Defende que a atenção deve ser personalizada para atender às necessidades específicas de cada pessoa."
+                    texto:  "Automatizar tarefas administrativas para que hospitais e postos consigam trabalhar com mais eficiência.",
+                    afirmacao: "Você percebe que, muitas vezes, melhorar os bastidores é o que faz o atendimento realmente funcionar.", 
+                    "Menos processos manuais e mais organização parecem ser o caminho ideal para você."
                 }    
                
             ]
         },
         {
-            enunciado: "Qual é a medida mais urgente para melhorar o sistema de saúde pública no país?",
+            enunciado: "Como os dados poderiam contribuir para melhorar as decisões na saúde pública?",
 
             alternativas: [
                 {
-                    texto: "Redirecionar a maior parte dos recursos para a atenção primária e prevenção (postos de saúde, campanhas de vacinação e acompanhamento familiar), evitando que as pessoas adoeçam gravemente.",
-                    afirmacao: "Você prioriza a educação e o cuidado contínuo para evitar doenças e não sobrecarregar o sistema de saúde a longo prazo.", 
-                    "Sua prioridade é a prevenção e a conscientização constante para impedir que as pessoas adoeçam. Com isso, busca evitar o colapso do atendimento médico no futuro."
+                    texto: "Analisar dados para identificar possíveis surtos de doenças antes que eles se espalhem.",
+                    afirmacao: "Pensar alguns passos à frente é algo que combina com você, principalmente quando isso pode evitar problemas maiores.", 
+                    "A possibilidade de detectar sinais de alerta antes de uma crise acontecer mostra um lado mais preventivo da tecnologia."
                 },
                 {
-                    texto:    "Concentrar os investimentos na expansão da rede hospitalar e de urgência (UTIs, leitos e exames de alta complexidade), garantindo atendimento rápido e eficiente para quem já está em situação crítica.",
+                    texto: "Manter um histórico digital dos atendimentos para que os profissionais tenham acesso às informações importantes de cada paciente.",
                
-                    afirmacao: "Você prioriza o atendimento hospitalar imediato e a infraestrutura avançada para salvar vidas em situações críticas.", 
-                    "Seu foco principal está no socorro emergencial ágil e no acesso a tecnologias de ponta para garantir a sobrevivência em momentos graves."
+                    afirmacao: "Ter as informações reunidas em um só lugar parece facilitar bastante o acompanhamento dos pacientes.", 
+                    "Você tende a preferir sistemas que evitem perda de informações e tornem o atendimento mais contínuo."
                 }    
                
             ]
