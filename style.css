@@ -1,8 +1,8 @@
 :root {
-  --cor-fundo: #0F0A1C;       /* Roxo muito escuro */
-  --cor-principal: #1A122B;   /* Roxo profundo */
-  --cor-secundaria: #2D1F47;  /* Roxo médio */
-  --cor-destaque: #C77DFF;    /* Lilás vibrante */
+  --cor-fundo: #380c1a;       /* Roxo muito escuro */
+  --cor-principal: #590b3b;   /* Roxo profundo */
+  --cor-secundaria: #7c2946;  /* Roxo médio */
+  --cor-destaque: #84173d;    /* Lilás vibrante */
   --cor-texto: #F3E8FF;       /* Lilás bem claro (quase branco) */
 }
 
@@ -57,12 +57,6 @@ button {
 button:hover {
   background-color: var(--cor-destaque);
   color: var(--cor-secundaria);
-}:root {
-  --cor-fundo: #0F0A1C;       /* Roxo muito escuro */
-  --cor-principal: #1A122B;   /* Roxo profundo */
-  --cor-secundaria: #2D1F47;  /* Roxo médio */
-  --cor-destaque: #C77DFF;    /* Lilás vibrante */
-  --cor-texto: #F3E8FF;       /* Lilás bem claro (quase branco) */
 }
 
 body {
