@@ -8,40 +8,6 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
 
-const perguntas = [
-    {
-        enunciado: "Como a tecnologia deve ser usada na saúde pública?",
-        alternativas: [
-            {
-                texto: "Focar em consultas online e aplicativos para que qualquer pessoa consiga atendimento médico direto do celular, sem sair de casa.",
-                afirmacao: "Você gosta de praticidade, inovação e facilidade no dia a dia. Valoriza o uso da tecnologia para encurtar distâncias e economizar tempo." ,
-                "Você aprecia a praticidade, o avanço tecnológico e a conveniência na sua rotina. Defende que os recursos digitais devem ser usados para aproximar pessoas e otimizar tarefas."
-            },
-            {
-                texto:  "Focar na organização dos dados, prontuários integrados e controle de estoque de remédios para o sistema interno funcionar sem erros.",
-                afirmacao: "Você valoriza a ordem, a eficiência dos bastidores e a precisão. Acredita que as coisas só funcionam bem quando a gestão interna está redonda.", 
-                "Você preza pela organização, pelo bom funcionamento do trabalho interno e pela exatidão. Defende que o sucesso depende de um planejamento bem estruturado por trás dos panos."
-            }    
-           
-        ]
-    },
-    {
-       
-            enunciado: "Qual é a melhor forma de cuidar da saúde mental da população?",
-            alternativas: [
-                {
-                    texto: "Criar grupos de conversa, atividades físicas e palestras de apoio nas escolas, bairros e ambientes de trabalho.",
-                    afirmacao: "Você acredita na força do convívio, do diálogo e da empatia. Valoriza o apoio coletivo e o bem-estar social no dia a dia.", 
-                    "Você confia no poder das relações humanas, da troca de ideias e de se colocar no lugar do outro. Acredita firmemente na união da comunidade e na busca pelo bem-estar de todos no cotidiano."
-                },
-                {
-                    texto:  "Aumentar o número de psicólogos e psiquiatras nos postos para atender cada pessoa de forma individual e personalizada.",
-                    afirmacao: "Você valoriza a privacidade, a atenção técnica e o acompanhamento especializado. Acredita no cuidado pontual de cada caso.", 
-                    "Você dá grande valor ao sigilo, ao rigor técnico e ao auxílio por parte de especialistas. Defende que a atenção deve ser personalizada para atender às necessidades específicas de cada pessoa."
-                }    
-               
-            ]
-        },
         {
             enunciado: "Qual é a medida mais urgente para melhorar o sistema de saúde pública no país?",
 
